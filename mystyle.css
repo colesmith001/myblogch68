@@ -1,0 +1,41 @@
+/* global */
+body{
+    font-family: arial;
+}
+
+a{
+    color:white;
+}
+img{
+    max-width: 100%;
+    /*max-width: 100%;*/
+}
+/* header */
+header{
+    background-color:black;
+    color:white;
+    padding: 20px;
+}
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+/* main */
+.large-text{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+}
+/* gllery */
+.main-flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card{
+    background-color: grey;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
