@@ -1,0 +1,52 @@
+h1{
+    color:yellow;
+}
+body{
+    font-family: arial;
+}
+a{
+    color: yellow;
+}
+img{
+    max-width: 100%;
+}
+/*header*/
+header{
+    background-color: maroon;
+    color:white;
+    padding: 20px;
+
+}
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    font-family: arial;
+    
+}
+.form-container{
+    background-color: maroon;
+    padding: 20px;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    color: yellow;
+
+}
+.input-container input{
+    width: 80%;
+
+}
+.input-container label{
+    width: 20%;
+
+}
+.btn{
+background-color: black;
+color: white;
+border: none;
+padding: 10px;
+}
